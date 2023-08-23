@@ -1,0 +1,50 @@
+body,header,font,a,th {
+		font-family: 'Kanit', sans-serif;
+		font-size: 16px;
+      }
+	th{
+  		text-align: center;
+		font-size: 16px;
+	}
+	td {
+  		text-align: center;
+		font-size: 15px;
+	}
+	tbody{
+		background-color:#FDFDFD;
+	}
+
+	.bg{
+		border-radius: 7px;
+		background-color: #FDFDFD;
+		border: 3px solid #FFFFFF;
+		padding: 5px;
+	} 
+	.bgtable{
+		border-radius: 10px;
+		background-color: #f5f5f5;
+		padding: 5px;
+	}  
+	hr{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+	}
+    .container_img {
+        position: relative;
+    }
+    .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+        text-shadow: 2px 2px 8px #FFFFFF;
+        font-weight:bold;
+        
+        }
+     .img { 
+        width: 100%;
+        height: auto;
+        /* opacity: 0.1; */
+       }
